@@ -1,0 +1,9 @@
+[init]
+		defaultBranch = main
+[alias]
+		lg = log --pretty=format:'%C(red)%h%C(reset) %cr %C(green)<%an>%C(reset) %s%C(yellow)%d'
+			lgt = log --graph --all --oneline
+[core]
+		editor = code --wait
+[pull]
+		rebase = true
