@@ -9,11 +9,10 @@ bspc wm -O HDMI-A-1-0 DisplayPort-1
 
 export _JAVA_AWT_WM_NONREPARENTING=1 &
 setxkbmap br &
-feh --bg-scale ~/Pictures/feh --bg-scale ~/Pictures/wallpapermrrobot.jpg &
+feh --bg-scale ~/Pictures/feh --bg-scale ~/Pictures/wallpaper.jpg &
 vban_receptor -i 192.168.0.8 -p 6980 -s Stream1 -c1 -b pulseaudio &
 barrier &
 picom &
-~/startcantooserver.sh &
 
 
 bspc config border_width         3
